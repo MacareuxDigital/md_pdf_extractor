@@ -50,7 +50,7 @@ class Controller extends Package
             $ak->setAttributeKeyName('PDF text');
             $ak->setIsAttributeKeySearchable(true);
             $ak->setIsAttributeKeyContentIndexed(true);
-            $category->add('textarea', $ak, $settings, $pkg);
+            $category->add('textarea', $ak, null, $pkg);
         }
 
         return $pkg;
