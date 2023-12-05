@@ -15,7 +15,7 @@ class Controller extends Package
 
     protected $pkgHandle = 'md_pdf_extractor';
 
-    protected $pkgVersion = '0.9.0';
+    protected $pkgVersion = '0.9.1';
 
     protected $pkgAutoloaderRegistries = [
         'src' => '\Macareux\Package\PdfExtractor',
